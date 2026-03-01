@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Compile SCSS to CSS
-        run: npx sass --load-path=node_modules style.scss styles.css
+        run: npx sass --load-path=node_modules styles.scss styles.css
 
       - name: Commit and Push if CSS changed
         run: |
