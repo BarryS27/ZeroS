@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "ZeroS",
+    "description": "An extremely lightweight personalized new tab page.",
+    "version": "1.0.0",
+    "icons": {
+        "96": "favicon.png"
+    },
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "offline_enabled": true,
+    "permissions": [
+        "storage",
+        "geolocation"
+    ],
+    "host_permissions": [
+        "https://bing.biturl.top/*",
+        "https://api.open-meteo.com/*",
+        "https://www.google.com/s2/favicons*"
+    ]
+}
